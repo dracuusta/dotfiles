@@ -1,0 +1,48 @@
+# import alacritty theme
+# import = ["/Users/dracuusta/Downloads/alacritty-master/dracula.toml"]
+[shell]
+program = "/bin/zsh"
+
+[font]
+# The normal (roman) font face to use.
+normal = { family = "JetBrains Mono", style = "Regular" }
+
+# The bold font face
+bold = { family = "JetBrains Mono", style = "Bold" }
+
+# The italic font face
+italic = { family = "JetBrains Mono", style = "Italic" }
+
+# Point size of the font
+size = 16  # Adjust this value as per your preference
+
+
+# Set window size
+[window]
+opacity=0.7
+dynamic_padding=true
+blur=true
+
+
+[window.dimensions]
+columns= 160
+lines=45
+
+
+[window.padding]
+x=10
+y=2
+
+
+
+# Offset is the extra space around each character.
+[font.offset]
+x = 0
+y = 0
+
+# Glyph offset determines the locations of the glyphs within their cells.
+[font.glyph_offset]
+x = 0
+y = 0
+
+
