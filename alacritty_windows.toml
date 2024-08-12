@@ -1,0 +1,49 @@
+[shell]
+program = "powershell.exe"
+args = ["-NoLogo", "-NoExit", "-Command", "cd ~"]
+
+
+[env]
+PATH = "C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Users\\shashwat.singh\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\shashwat.singh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\shashwat.singh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\shashwat.singh\\AppData\\Local\\Programs\\Git\\cmd;C:\\Users\\shashwat.singh\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\shashwat.singh\\Desktop\\Node;C:\\Users\\shashwat.singh\\AppData\\Local\\JetBrains\\PyCharm Community Edition 2024.1.4\\bin;C:\\Users\\shashwat.singh\\nvim-win64\\bin"
+
+[font]
+# The normal (roman) font face to use.
+normal = { family = "JetBrains Mono", style = "Regular" }
+
+# The bold font face
+bold = { family = "JetBrains Mono", style = "Bold" }
+
+# The italic font face
+italic = { family = "JetBrains Mono", style = "Italic" }
+
+# Point size of the font
+size = 16  # Adjust this value as per your preference
+
+
+# Set window size
+[window]
+opacity=0.7
+dynamic_padding=true
+blur=false
+
+
+[window.dimensions]
+columns= 90
+lines=30
+
+
+[window.padding]
+x=10
+y=2
+
+
+
+# Offset is the extra space around each character.
+[font.offset]
+x = 0
+y = 0
+
+# Glyph offset determines the locations of the glyphs within their cells.
+[font.glyph_offset]
+x = 0
+y = 0
