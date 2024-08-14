@@ -5,13 +5,13 @@ program = "/bin/zsh"
 
 [font]
 # The normal (roman) font face to use.
-normal = { family = "JetBrains Mono", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 
 # The bold font face
-bold = { family = "JetBrains Mono", style = "Bold" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
 
 # The italic font face
-italic = { family = "JetBrains Mono", style = "Italic" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
 
 # Point size of the font
 size = 16  # Adjust this value as per your preference
