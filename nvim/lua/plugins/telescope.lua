@@ -3,7 +3,23 @@ return {
     tag = "0.1.6",
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
-        require("telescope").setup()
+        require("telescope").setup({
+ defaults = {
+        vimgrep_arguments = {
+          'rg',
+          '--color=never',
+          '--no-heading',
+          '--with-filename',
+          '--line-number',
+          '--column',
+          '--smart-case'
+        },
+        prompt_prefix = "🔍 ",
+        selection_caret = " ",
+        path_display = { "truncate" },
+      },
+      -- other telescope settings...
+    })
 
         -- set keymaps
         local keymap = vim.keymap

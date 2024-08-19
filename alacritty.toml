@@ -2,6 +2,7 @@
 # import = ["/Users/dracuusta/Downloads/alacritty-master/dracula.toml"]
 [shell]
 program = "/bin/zsh"
+args = [ "--login", "-c", "tmux new-session -A -s my_session" ]
 
 [font]
 # The normal (roman) font face to use.
