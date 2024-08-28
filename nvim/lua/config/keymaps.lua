@@ -42,4 +42,6 @@ vim.api.nvim_create_autocmd({ "InsertLeave", "TextChanged" }, {
   group = "autosave",
   command = "silent! wall",
 })
---LSP
+--buffer shortcuts--
+vim.keymap.set("n","<Tab>",":bnext<CR>",{remap=true,silent=true})
+vim.keymap.set("n","<S-Tab>",":bprev<CR>",{remap=true,silent=true})
