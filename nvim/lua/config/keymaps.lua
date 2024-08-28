@@ -9,8 +9,8 @@ local o = vim.opt
 o.number = true
 o.autoindent = true
 o.cursorline = true --highlight screenline of cursor when starting a new line --
-o.shiftwidth = 2
-o.tabstop = 2
+o.shiftwidth = 1
+o.tabstop = 4
 o.expandtab = true
 
 local nonoremap = function(mode, lhs, rhs, opts)
