@@ -1,6 +1,5 @@
 require("config.lazy")
 require("config.keymaps")
-require("config.settings")
 require("mason").setup()
 require("netrw").setup({})
 require("lspconfig").tsserver.setup({})
