@@ -35,3 +35,60 @@ Plug 'tpope/vim-commentary'
 " set global register to common
 set relativenumber
 set clipboard+=unnamed
+
+" Set leader key to space
+let mapleader = " "
+
+" Editor options
+set relativenumber     " Show relative line numbers
+set number             " Show absolute line number
+set autoindent         " Enable automatic indentation
+set cursorline         " Highlight the current line
+set shiftwidth=1       " Number of spaces to use for each step of (auto)indent
+set tabstop=4          " Number of spaces that a <Tab> counts for
+set expandtab          " Convert tabs to spaces
+set termguicolors      " Enable 24-bit RGB colors
+
+" netrw settings (for file explorer)
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
+
+" NeoTree Toggle (or similar action)
+" Use :action for IntelliJ IDEA actions (e.g., for file explorer)
+nmap <C-t> :action ViewToolWindowFiles<CR>
+nmap <leader>e :action ViewToolWindowFiles<CR>
+nmap <leader>h :action ViewToolWindowFiles<CR>
+
+" Window navigation
+nmap <leader>h <C-w>h
+nmap <leader>l <C-w>l
+nmap <leader>j <C-w>j
+nmap <leader>k <C-w>k
+
+" Yanking to system clipboard
+vmap <leader>y "+y
+
+" Buffer navigation
+nmap <A-1> :b 1<CR>
+nmap <A-2> :b 2<CR>
+nmap <A-3> :b 3<CR>
+nmap <A-4> :b 4<CR>
+nmap <A-5> :b 5<CR>
+nmap <A-6> :b 6<CR>
+nmap <A-7> :b 7<CR>
+nmap <A-8> :b 8<CR>
+nmap <A-9> :b 9<CR>
+nmap <A-0> :b #<CR>   " Go to the last buffer
+
+" Buffer picker or file switcher (using ShowRecentFiles action in IntelliJ)
+nmap <leader>b :action ShowRecentFiles<CR>
+
+" Diagnostic popup (if using an LSP plugin that supports diagnostics)
+nmap <leader>d :action ShowIntentionActions<CR>
+
+" Scrolling and centering the cursor
+nmap <C-d> <C-d>zz
+nmap <C-u> <C-u>zz
+
+" Tab buffer navigation
+nmap <Tab> :bnext<CR>
+nmap <S-Tab> :bprev<CR>

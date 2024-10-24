@@ -1,8 +1,11 @@
 # import alacritty theme
 # import = ["/Users/dracuusta/Downloads/alacritty-master/dracula.toml"]
-[shell]
-program = "/bin/zsh"
-args = [ "--login", "-c", "tmux new-session -A -s my_session" ]
+# [shell]
+# program = "/bin/zsh"
+# args = [ "--login", "-c", "tmux new-session -A -s my_session" ]
+
+[env]
+TERM = "xterm-256color"
 
 [font]
 # The normal (roman) font face to use.
