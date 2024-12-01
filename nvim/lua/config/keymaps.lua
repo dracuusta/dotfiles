@@ -12,6 +12,7 @@ o.expandtab = true
 o.termguicolors=true
 
 vim.cmd([[let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro']])
+vim.guicursor=n-v-c-i:block
 
 --NeoTree Toggles--
 vim.keymap.set("n", "<C-t>", ":Neotree toggle<CR>", { noremap = true })

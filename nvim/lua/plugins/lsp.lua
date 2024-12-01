@@ -46,7 +46,7 @@ return { "neovim/nvim-lspconfig",
                     on_attach = on_attach,
                 })
             end,
-            ["tsserver"] = function()
+            ["tssserver"] = function()
                 nvim_lsp.tsserver.setup({
                     on_attach = on_attach,
                     capabilities = capabilities,

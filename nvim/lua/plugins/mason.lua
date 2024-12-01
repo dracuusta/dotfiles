@@ -12,6 +12,7 @@ return {
 			ensure_installed = {
 				"cssls",
 				"eslint",
+                "ts_ls",
 				"html",
 				"jsonls",
 				"pyright",
