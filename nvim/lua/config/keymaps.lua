@@ -1,4 +1,5 @@
 local M = {}
+
 vim.g.mapleader = " "
 local o = vim.opt
 --editor options--
