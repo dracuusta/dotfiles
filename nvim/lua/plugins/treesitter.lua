@@ -24,6 +24,7 @@ return {
 				"tsx",
 				"yaml",
 				"html",
+                "java",
 				"css",
 				"markdown",
 				"markdown_inline",
