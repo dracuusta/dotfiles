@@ -17,6 +17,7 @@ o.swapfile = false
 o.scrolloff = 8
 o.signcolumn = "yes"
 
+-- no idea what this command does, but it's there so not removing
 vim.cmd([[let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro']])
 
 
